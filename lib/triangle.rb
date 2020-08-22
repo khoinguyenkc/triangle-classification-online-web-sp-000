@@ -8,11 +8,11 @@ class Triangle
 
   def kind
     type = ""
-    
+
     if (@one + @two <= @three) || (@one + @three <= @two) || (@two + @three <= @one)
       raise TriangleError
       return
-    elsif (@one <= 0) || (@two <= 0) || (@three <= 0)  
+    elsif (@one <= 0) || (@two <= 0) || (@three <= 0)
       raise TriangleError
       return
     elsif (@one == @two ) && (@two == @three )
@@ -30,10 +30,10 @@ class Triangle
     return type
   end
 
-  
+
 
   class TriangleError < StandardError
-    
+
   end
 
 end
