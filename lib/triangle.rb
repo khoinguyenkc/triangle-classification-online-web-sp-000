@@ -2,13 +2,12 @@ class Triangle
   attr_reader :one, :two, :three
   # write code here
   def initialize(one, two, three)
-    @one = one,
-    @two = two,
+    @one = one
+    @two = two
     @three = three
   end
 
     def add(x,y)
-      x + y
     end
 
   def kind
