@@ -8,7 +8,7 @@ class Triangle
   end
 
     def add
-      @one + @two 
+      @one + @two
     end
     
   def kind
