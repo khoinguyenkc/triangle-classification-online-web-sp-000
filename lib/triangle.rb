@@ -1,4 +1,5 @@
 class Triangle
+  attr_reader :one, :two, :three
   # write code here
   def initialize(one, two, three)
     @one = one,
