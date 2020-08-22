@@ -37,3 +37,5 @@ class Triangle
   end
 
 end
+
+try = Triangle.new(2,2,2)
