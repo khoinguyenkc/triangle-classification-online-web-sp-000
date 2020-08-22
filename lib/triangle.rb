@@ -10,7 +10,7 @@ class Triangle
     def add
       @one + @two
     end
-    
+
   def kind
     type = ""
 
@@ -44,4 +44,4 @@ class Triangle
 end
 
 try = Triangle.new(2,8,7)
-puts try.three
+puts try.add
