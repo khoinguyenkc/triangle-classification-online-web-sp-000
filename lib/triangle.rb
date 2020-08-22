@@ -43,4 +43,3 @@ class Triangle
 end
 
 try = Triangle.new(2,8,7)
-puts try.add(5,8)
