@@ -17,22 +17,22 @@ class Triangle
     elsif (@one == @two ) && (@two == @three )
       type = "equilateral"
     elsif (@one != @two ) &&(@two == @three)
-    elsif 
+    elsif
     elsif condition
-      
-      
-      
+
+
+
     end
 
 
-    if valid 
+    if valid
       return type
         end
-      
+
   end
 
   class TriangleError < StandardError
-    def 
-  end 
-  
+    def
+  end
+
 end
