@@ -7,8 +7,8 @@ class Triangle
     @three = three
   end
 
-    def add
-      @one + @two
+    def add(x,y)
+      x + y
     end
 
   def kind
