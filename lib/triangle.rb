@@ -40,3 +40,4 @@ class Triangle
 end
 
 try = Triangle.new(2,2,2)
+puts try.three
