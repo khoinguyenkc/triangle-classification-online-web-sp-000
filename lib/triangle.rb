@@ -21,12 +21,12 @@ class Triangle
       return
     elsif (@one == @two ) && (@two == @three )
       type = :equilateral
-    elsif (@one != @two ) &&(@two == @three) #exactly 2 3 same
-      type = :isoceles
-    elsif (@one != @two ) &&(@one == @three) #eactly 1 3 same
-      type = :isoceles
+    elsif (@one != @two ) && (@two == @three) #exactly 2 3 same
+      type = :isosceles
+    elsif (@one != @two ) && (@one == @three) #eactly 1 3 same
+      type = :isosceles
     elsif (@three != @two ) && (@one == @two) #eactly 1 2 same
-      type = :isoceles
+      type = :isosceles
     elsif (@one != @two) && (@two != @three) && (@one != @three) #all 3 sides dif but length valid
       type = :scalene
     end
